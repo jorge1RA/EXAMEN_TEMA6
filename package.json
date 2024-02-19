@@ -1,14 +1,15 @@
 {
-  "name": "examen-docker",
+  "name": "servidor-1",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mi primer servidor web",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
-  
-  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  }
 }
